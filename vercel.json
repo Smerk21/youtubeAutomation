@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/youtube_shorts_api.py" }
+  ]
+}
